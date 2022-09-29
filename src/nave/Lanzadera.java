@@ -10,14 +10,15 @@ public class Lanzadera implements AccesoDatos {
     private int potencia;
 
 
-    public void insertar(){
-        System.out.println("se inserto");
+    public void despegar(){
+        System.out.println("se despegó");
 
     }
-    public void listar(){
-        System.out.println("se listo");
-    }
 
+    @Override
+    public void aterrizar() {
+        System.out.println("se aterrizo");
+    }
 }
 /**
  * tres tipos de vehiculos: lanzadera, no tripuladas o roboticas

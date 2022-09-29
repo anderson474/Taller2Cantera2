@@ -1,0 +1,18 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ĞÂû¿ûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‚à¼÷
+>
+java:S1068"(Remove this unused "name" private field.(Ë¥¼
+F
+java:S1068"+Remove this unused "country" private field.(“—àÊúÿÿÿÿ
+E
+java:S1068"*Remove this unused "empuje" private field.(½ ¡·øÿÿÿÿ
+>
+java:S1068"(Remove this unused "peso" private field.(€ãÆ±
+B
+java:S1068",Remove this unused "capTrans" private field.(®–öÕ
+@
+java:S1068	"*Remove this unused "altura" private field.(Ïì±
+B
+java:S1068
+",Remove this unused "potencia" private field.(‚ŸÙ¢
