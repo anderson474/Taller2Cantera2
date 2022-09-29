@@ -1,6 +1,6 @@
 package nave;
 
-public class Lanzadera implements AccesoDatos {
+public class Lanzadera extends nave.conteo implements AccesoDatos {
     private String name;
     private String country;
     private int empuje;
@@ -8,11 +8,36 @@ public class Lanzadera implements AccesoDatos {
     private int capTrans;// capacidad de transporte en orbita baja
     private int altura;
     private int potencia;
+    private static final int CONTEO=3;
 
+
+
+    private Lanzadera()  {
+        super(CONTEO);
+    }
+
+    public Lanzadera(String name, String country, int empuje, int peso, int capTrans, int altura, int potencia) {
+        this();
+        this.name=name;
+        this.country=country;
+        this.empuje=empuje;
+        this.peso=peso;
+        this.capTrans=capTrans;
+        this.altura=altura;
+        this.potencia=potencia;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getCountry() {
+        return country;
+    }
 
     public void despegar(){
-        System.out.println("se despegó");
-
+        super.contar();
+        
     }
 
     @Override
@@ -20,7 +45,3 @@ public class Lanzadera implements AccesoDatos {
         System.out.println("se aterrizo");
     }
 }
-/**
- * tres tipos de vehiculos: lanzadera, no tripuladas o roboticas
- * y tripuladas
- */
