@@ -4,10 +4,10 @@
     <list default="true" id="9d9cf534-8913-44b4-9392-00ad451ddbec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/manejoNave/ManejoNave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manejoNave/ManejoNave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manejoNave/Preguntar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manejoNave/Preguntar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nave/AccesoDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nave/AccesoDatos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nave/Lanzadera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nave/Lanzadera.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nave/NoTripulados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nave/NoTripulados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nave/Tripulados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nave/Tripulados.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/merys/OneDrive/Escritorio/CursoJava/EstructurasPrincipales/ClasesJava"
+    "last_opened_file_path": "C:/Users/merys/OneDrive/Escritorio/CursoJava/EstructurasPrincipales/Taller2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -123,15 +123,6 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/manejoNave/ManejoNave.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="si" language="JAVA" />

@@ -8,7 +8,7 @@ public class Lanzadera extends nave.conteo implements AccesoDatos {
     private int capTrans;// capacidad de transporte en orbita baja
     private int altura;
     private int potencia;
-    private static final int CONTEO=3;
+    //private static final int CONTEO=3;
 
 
 
@@ -35,9 +35,13 @@ public class Lanzadera extends nave.conteo implements AccesoDatos {
         return country;
     }
 
+    public int getCapTrans() {
+        return capTrans;
+    }
+
     public void despegar(){
         super.contar();
-        
+        System.out.println("Su lanzadero tuvo un Despegue exitoso");
     }
 
     @Override

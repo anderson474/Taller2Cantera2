@@ -6,7 +6,7 @@ public class Preguntar {
     private static String entradaTeclado;
 
     public static boolean pregunta(){
-        System.out.println("Desea Continuar el juego?");
+
         Scanner entrada = new Scanner(System.in);
         entradaTeclado = entrada.nextLine();
         var respuesta = identResp(entradaTeclado);

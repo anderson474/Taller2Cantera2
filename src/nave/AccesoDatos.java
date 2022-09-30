@@ -2,6 +2,7 @@ package nave;
 
 public interface AccesoDatos {
     public static final double VELOCIDAD_DE_ESCAPE= 11.19;//  km/s
+    public static final int CONTEO=3;
 
     /**
      * Los metodos abstractos de la interfaz
